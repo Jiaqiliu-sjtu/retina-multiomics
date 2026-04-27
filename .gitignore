@@ -1,0 +1,25 @@
+# data (不要上传)
+data/
+raw_data/
+
+# 大文件
+*.qs
+*.rds
+*.h5
+*.h5ad
+*.bam
+*.fastq
+*.fastq.gz
+*.tsv.gz
+*.mtx.gz
+
+# R 环境
+.Rhistory
+.RData
+
+# 系统文件
+.DS_Store
+
+# 输出
+results/intermediate/
+logs/
